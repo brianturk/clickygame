@@ -2,22 +2,18 @@ import React, { Component } from "react";
 import "./style.css";
 
 class SimponsCard extends Component {
-  constructor(props) {
-    super(props);
+  
+  handleClick = this.props.handleClick.bind(this);
 
-    // This binding is necessary to make `this` work in the callback
-    this.handleClick = props.handleClick.bind(this);
-
-    this.state = {
-      bgColor: "",
-      wrong: false,
-      newgame: false,
-      clicked: false
-    }
+  state = {
+    bgColor: "",
+    wrong: false,
+    newgame: false,
+    clicked: false
   }
 
   clickAnimation(id) {
-    console.log(this.state.bgColor);
+    // console.log(this.state.bgColor);
 
     if (!this.state.wrong) {
       this.setState({
@@ -52,8 +48,7 @@ class SimponsCard extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    // Typical usage (don't forget to compare props):
-    // this.fetchData(this.props.userID);
+
     if (((prevProps.bgColor === "red") || (prevProps.bgColor === "yellow")) && (this.state.wrong) && (this.props.bgColor === "")) {
       this.setState({
         bgColor: "",

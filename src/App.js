@@ -1,28 +1,33 @@
 import React, { Component } from 'react';
 import SimpsonsCard from './components/SimpsonCard';
 import simpsons from "./simpsons.json";
+import haHa from './sound/haha.wav';
+import simpsonsIntro from './sound/theSimpsonsIntro.wav';
+import bartCoolMan from './sound/bartCoolMan.wav'
 import './App.css';
+// import ProgressBar from './ProgressBar'
 
 class App extends Component {
-  constructor(props) {
-    super(props);
+  
+  state = {
+    score: 0,
+    topScore: 0,
+    simpsons: [],
+    selected: [],
+    bgColor: "",
+    newGame: false
+  };
 
-    this.state = {
-      score: 0,
-      topScore: 0,
-      simpsons: [],
-      selected: [],
-      bgColor: "",
-      newGame: false
-    };
+  playSimpsonsIntro = () => {
+    this.simpsonsIntro.play();
+  }
 
-    this.playHaha = () => {
+  playHaha = () => {
       this.haha.play();
     }
 
-    this.playSimpsonsIntro = () => {
-      this.simpsonsIntro.play();
-    }
+  playBartCoolMan = () => {
+    this.bartCoolMan.play();
   }
 
   componentDidMount() {
@@ -61,11 +66,13 @@ class App extends Component {
           score: this.state.score + 1
         });
 
-        if (this.state.selected.length === this.state.simpsons.length) //They got them all 
+        if (this.state.selected.length === this.state.simpsons.length) {//They got them all 
           this.setState({
             bgColor: "yellow",
             newGame: true
           });
+          this.playBartCoolMan()
+        }
         else {
           this.setState({
             simpsons: this.shuffleArray(simpsons)
@@ -115,6 +122,9 @@ class App extends Component {
             </ul>
           </div>
         </nav>
+
+        {/* <ProgressBar percentage={this.state.percentage} /> */}
+
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -134,11 +144,15 @@ class App extends Component {
         </div>
 
         <audio ref={(haha) => { this.haha = haha; }}>
-          <source src="./assets/sound/haha.wav" type="audio/mpeg" >
+          <source src={haHa} type="audio/mpeg" >
           </source>
         </audio>
         <audio ref={(simpsonsIntro) => { this.simpsonsIntro = simpsonsIntro; }}>
-          <source src="./assets/sound/theSimpsonsIntro.wav" type="audio/mpeg" >
+          <source src={simpsonsIntro} type="audio/mpeg" >
+          </source>
+        </audio>
+        <audio ref={(bartCoolMan) => { this.bartCoolMan = bartCoolMan; }}>
+          <source src={bartCoolMan} type="audio/mpeg" >
           </source>
         </audio>
       </div>
