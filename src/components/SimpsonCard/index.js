@@ -54,12 +54,21 @@ class SimponsCard extends Component {
   componentDidUpdate(prevProps) {
     // Typical usage (don't forget to compare props):
     // this.fetchData(this.props.userID);
-    if ((prevProps.bgColor === "red") && (this.state.wrong) && (this.props.bgColor === "")) {
+    if (((prevProps.bgColor === "red") || (prevProps.bgColor === "yellow")) && (this.state.wrong) && (this.props.bgColor === "")) {
       this.setState({
         bgColor: "",
         wrong: false
       })
     }
+
+    if ((this.props.bgColor === "yellow") && (!this.state.wrong)) {
+      this.setState({
+        bgColor: this.props.bgColor,
+        wrong: true,
+        clicked: false
+      })
+    }
+
     if ((this.props.bgColor === "red") && (!this.state.wrong)) {
       if (this.state.clicked) {
         this.setState({

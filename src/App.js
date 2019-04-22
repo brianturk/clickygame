@@ -55,17 +55,23 @@ class App extends Component {
     } else {
       const newSelected = this.state.selected.filter(value => value !== id);
 
-      if (this.state.selected.length === newSelected.length) {
+      if (this.state.selected.length === newSelected.length) {  //Not a duplicate click
         this.state.selected.push(id)
         this.setState({
           score: this.state.score + 1
         });
 
-        this.setState({
-          simpsons: this.shuffleArray(simpsons)
-        });
-      } else {
-        //they messed up
+        if (this.state.selected.length === this.state.simpsons.length) //They got them all 
+          this.setState({
+            bgColor: "yellow",
+            newGame: true
+          });
+        else {
+          this.setState({
+            simpsons: this.shuffleArray(simpsons)
+          });
+        }
+      } else {   //they messed up
         this.setState({
           bgColor: "red",
           newGame: true
