@@ -1,14 +1,17 @@
 {
-  "main.css": "/clickygame/static/css/main.67062817.chunk.css",
-  "main.js": "/clickygame/static/js/main.c9d10d56.chunk.js",
-  "main.js.map": "/clickygame/static/js/main.c9d10d56.chunk.js.map",
+  "main.css": "/clickygame/static/css/main.491454a0.chunk.css",
+  "main.js": "/clickygame/static/js/main.d33af872.chunk.js",
+  "main.js.map": "/clickygame/static/js/main.d33af872.chunk.js.map",
   "runtime~main.js": "/clickygame/static/js/runtime~main.bb8261cb.js",
   "runtime~main.js.map": "/clickygame/static/js/runtime~main.bb8261cb.js.map",
-  "static/js/2.827c098e.chunk.js": "/clickygame/static/js/2.827c098e.chunk.js",
-  "static/js/2.827c098e.chunk.js.map": "/clickygame/static/js/2.827c098e.chunk.js.map",
+  "static/js/2.46cdd29a.chunk.js": "/clickygame/static/js/2.46cdd29a.chunk.js",
+  "static/js/2.46cdd29a.chunk.js.map": "/clickygame/static/js/2.46cdd29a.chunk.js.map",
   "index.html": "/clickygame/index.html",
-  "precache-manifest.233be1364115a2a234424c645de1575b.js": "/clickygame/precache-manifest.233be1364115a2a234424c645de1575b.js",
+  "precache-manifest.14f7b24aceeb656f8ec725a2840deacb.js": "/clickygame/precache-manifest.14f7b24aceeb656f8ec725a2840deacb.js",
   "service-worker.js": "/clickygame/service-worker.js",
-  "static/css/main.67062817.chunk.css.map": "/clickygame/static/css/main.67062817.chunk.css.map",
-  "static/media/App.css": "/clickygame/static/media/Simpsonfont DEMO.42e79bc9.otf"
+  "static/css/main.491454a0.chunk.css.map": "/clickygame/static/css/main.491454a0.chunk.css.map",
+  "static/media/App.css": "/clickygame/static/media/Simpsonfont DEMO.42e79bc9.otf",
+  "static/media/bartCoolMan.wav": "/clickygame/static/media/bartCoolMan.f79ad1f6.wav",
+  "static/media/haha.wav": "/clickygame/static/media/haha.e8b10595.wav",
+  "static/media/theSimpsonsIntro.wav": "/clickygame/static/media/theSimpsonsIntro.e80c8286.wav"
 }
