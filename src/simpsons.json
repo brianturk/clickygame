@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Homer Simpson",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/0/02/Homer_Simpson_2006.png/revision/latest?cb=20190409004803",
+    "wikilink": "https://simpsons.fandom.com/wiki/Homer_Simpson"
+  },
+  {
+    "id": 2,
+    "name": "Abraham Simpson II",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/a/a9/Abraham_Simpson.png/revision/latest?cb=20151011181838",
+    "wikilink": "https://simpsons.fandom.com/wiki/Abraham_Simpson_II"
+  },
+  {
+    "id": 3,
+    "name": "Marge Simpson",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/0/0b/Marge_Simpson.png/revision/latest?cb=20190409004747",
+    "wikilink": "https://simpsons.fandom.com/wiki/Marge_Simpson"
+  },
+  {
+    "id": 4,
+    "name": "Bart Simpson",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/6/65/Bart_Simpson.png/revision/latest?cb=20190409004756",
+    "wikilink": "https://simpsons.fandom.com/wiki/Bart_Simpson"
+  },
+  {
+    "id": 5,
+    "name": "Lisa Simpson",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/d/d5/Lisa_Simpson_official.png/revision/latest?cb=20190409004811",
+    "wikilink": "https://simpsons.fandom.com/wiki/Lisa_Simpson"
+  },
+  {
+    "id": 6,
+    "name": "Maggie Simpson",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/9/9d/Maggie_Simpson.png/revision/latest?cb=20130424150432",
+    "wikilink": "https://simpsons.fandom.com/wiki/Maggie_Simpson"
+  },
+  {
+    "id": 7,
+    "name": "Sideshow Bob",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/0/0a/Robert_Terwilliger_Tapped_Out.png/revision/latest?cb=20171118020924",
+    "wikilink": "https://simpsons.fandom.com/wiki/Robert_Terwilliger"
+  },
+  {
+    "id": 8,
+    "name": "Sideshow Mel",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/0/02/Sideshow_Mel.png/revision/latest?cb=20120510141720",
+    "wikilink": "https://simpsons.fandom.com/wiki/Melvin_Van_Horne"
+  },
+  {
+    "id": 9,
+    "name": "Mona Simpson",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/5/52/IMG_1693.PNG/revision/latest?cb=20170103165130",
+    "wikilink": "https://simpsons.fandom.com/wiki/Mona_Simpson"
+  },
+  {
+    "id": 10,
+    "name": "Patty Bouvier",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/5/54/Temp.png/revision/latest?cb=20131208164211",
+    "wikilink": "https://simpsons.fandom.com/wiki/Patty_Bouvier"
+  },
+  {
+    "id": 11,
+    "name": "Selma Bouvier",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/0/0e/Selmaunlockimage.PNG/revision/latest?cb=20150504154049",
+    "wikilink": "https://simpsons.fandom.com/wiki/Selma_Bouvier"
+  },
+  {
+    "id": 12,
+    "name": "Krusty the Clown",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/0/07/Tapped_Out_Unlock_Krusty.png/revision/latest?cb=20141120143301",
+    "wikilink": "https://simpsons.fandom.com/wiki/Krusty_the_Clown"
+  },
+  {
+    "id": 13,
+    "name": "Charles Montgomery Burns",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/b/b0/Mr._Burns.png/revision/latest?cb=20130910084050",
+    "wikilink": "https://simpsons.fandom.com/wiki/Charles_Montgomery_Burns"
+  },
+  {
+    "id": 14,
+    "name": "Waylon J. Smithers, Jr.",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/8/83/Waylon_Smithers.png/revision/latest?cb=20100612160358",
+    "wikilink": "https://simpsons.fandom.com/wiki/Waylon_Smithers,_Jr."
+  },
+  {
+    "id": 15,
+    "name": "Carlton Carlson Jr.",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/c/c6/Carl_Carlson_-_shading.png/revision/latest?cb=20180312061955",
+    "wikilink": "https://simpsons.fandom.com/wiki/Carl_Carlson"
+  },
+  {
+    "id": 16,
+    "name": "Lenford Leonard",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/a/ae/Lenny_Leonard.png/revision/latest?cb=20180311092231",
+    "wikilink": "https://simpsons.fandom.com/wiki/Lenny_Leonard"
+  },
+  {
+    "id": 17,
+    "name": "Seymour Skinner",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/3/3a/Seymour_Skinner.png/revision/latest?cb=20151011181559",
+    "wikilink": "https://simpsons.fandom.com/wiki/Seymour_Skinner"
+  },
+  {
+    "id": 18,
+    "name": "Edna Krabappel",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/7/76/Edna_Krabappel.png/revision/latest?cb=20180723220624",
+    "wikilink": "https://simpsons.fandom.com/wiki/Edna_Krabappel"
+  },
+  {
+    "id": 19,
+    "name": "Otto Mann",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/0/09/Otto_Mann.png/revision/latest?cb=20130930205930",
+    "wikilink": "https://simpsons.fandom.com/wiki/Otto_Mann"
+  },
+  {
+    "id": 20,
+    "name": "Groundskeeper Willie",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/a/ad/Barechested_Willie_Tapped_Out.png/revision/latest?cb=20150814011922",
+    "wikilink": "https://simpsons.fandom.com/wiki/Groundskeeper_Willie"
+  },
+  {
+    "id": 21,
+    "name": "Milhouse Mussolini Van Houten",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/9/91/Milhouse_Van_Houten_2.png/revision/latest?cb=20180429212659",
+    "wikilink": "https://simpsons.fandom.com/wiki/Groundskeeper_Willie"
+  },
+  {
+    "id": 22,
+    "name": "Nelson Mandela Muntz",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/e/e0/Nelson_Muntz-795440.png/revision/latest?cb=20170903210651",
+    "wikilink": "https://simpsons.fandom.com/wiki/Nelson_Muntz"
+  },
+  {
+    "id": 23,
+    "name": "Martin Prince, Jr.",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/4/46/Martin_Prince.png/revision/latest?cb=20140207173940",
+    "wikilink": "https://simpsons.fandom.com/wiki/Martin_Prince"
+  },
+  {
+    "id": 24,
+    "name": "Ralph Wiggum",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/1/14/Ralph_Wiggum.png/revision/latest?cb=20100704163100",
+    "wikilink": "https://simpsons.fandom.com/wiki/Ralph_Wiggum"
+  },
+  {
+    "id": 25,
+    "name": "Rodney Flanders",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/e/e6/Rod_Flanders2.png/revision/latest?cb=20140817110904",
+    "wikilink": "https://simpsons.fandom.com/wiki/Rod_Flanders"
+  },
+  {
+    "id": 26,
+    "name": "Todd Flanders",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/1/18/Todd_Flanders.png/revision/latest?cb=20131223200228",
+    "wikilink": "https://simpsons.fandom.com/wiki/Todd_Flanders"
+  },
+  {
+    "id": 27,
+    "name": "Sherri and Terri",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/b/b5/Sherri-and-terri.png/revision/latest?cb=20140817111207",
+    "wikilink": "https://simpsons.fandom.com/wiki/Sherri_and_Terri"
+  },
+  {
+    "id": 28,
+    "name": "Jeffrey Albertson",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/9/9d/Comic_Book_Guy.png/revision/latest?cb=20140825023038",
+    "wikilink": "https://simpsons.fandom.com/wiki/Comic_Book_Guy"
+  },
+  {
+    "id": 29,
+    "name": "Moe Szyslak",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/8/80/Moe_Szyslak.png/revision/latest?cb=20170101190543",
+    "wikilink": "https://simpsons.fandom.com/wiki/Moe_Szyslak"
+  },
+  {
+    "id": 30,
+    "name": "Troy McClure",
+    "image": "https://vignette.wikia.nocookie.net/simpsons/images/f/fc/T-McClure.png/revision/latest?cb=20180908235236",
+    "wikilink": "https://simpsons.fandom.com/wiki/Troy_McClure"
+  }
+]
